@@ -159,6 +159,12 @@
     <string name="toast_invalid_odometer_value">Invalid odometer value.</string>
     <string name="toast_invalid_gallons_value">Invalid %1$s value.</string>
     <string name="toast_invalid_vehicle_name">Invalid vehicle name.</string>
+    <string name="vehicle_brand_label">Vehicle brand</string>
+    <string name="vehicle_plate_label">Vehicle registration plate</string>
+    <string name="vehicle_type_label">Vehicle Type</string>
+    <string name="toast_invalid_vehicle_brand">Invalid vehicle brand name.</string>
+    <string name="toast_invalid_vehicle_plate">Invalid vehicle type name.</string>
+    <string name="toast_invalid_vehicle_type">Invalid vehicle vehicle type.</string>
     <string name="toast_invalid_vehicle_tank_size">Invalid vehicle tank size.</string>
     <string name="toast_database_update_failed">Database update failed!</string>
     <string name="toast_invalid_cost_value">Invalid total cost value.</string>
@@ -246,5 +252,7 @@
     <string name="res_update_html">assets/update.html</string>
     <string name="asset_stats_top_html">stats_top.html</string>
     <string name="asset_stats_bottom_html">stats_bottom.html</string>
-    
+
+    <!--my strings-->
+
 </resources>

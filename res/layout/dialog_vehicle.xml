@@ -5,12 +5,12 @@
     android:orientation="vertical">
         
     <LinearLayout 
-	    android:layout_width="fill_parent" 
+	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content" 
 	    android:orientation="vertical"
 	    android:paddingLeft="8dip" 
 	    android:paddingRight="8dip"
-	    android:paddingBottom="8dip">
+	    android:paddingBottom="8dip" android:id="@+id/yomellamoralph">
 	    
 	    <TextView
             android:layout_width="fill_parent"
@@ -40,31 +40,43 @@
             android:inputType="numberDecimal"
             android:digits="0123456789.,"
             />
-        
-	</LinearLayout>
-	
-	<LinearLayout 
-	    android:layout_width="fill_parent" 
-	    android:layout_height="wrap_content" 
-	    android:orientation="horizontal"
-	    android:background="@color/dialog_buttonbar_bg"
-	    android:padding="5dip"
-	    >
-	    
-        <Button 
-            android:id="@+id/buttonOK" 
-            android:layout_width="120dp" 
-            android:layout_height="wrap_content" 
-            android:text="@string/ok_label" 
-            />
-        
-        <Button 
-            android:id="@+id/buttonCancel" 
-            android:layout_width="120dp" 
-            android:layout_height="wrap_content" 
-            android:text="@string/cancel_label" 
-            />
-                
-    </LinearLayout> 
+        <TextView android:id="@+id/labelVehicleBrand" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:text="@string/vehicle_brand_label"/>
+        <EditText android:id="@+id/textVehicleBrand" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:inputType="numberDecimal" android:digits="0123456789.,"/>
+        <TextView android:id="@+id/labelVehiclePlate" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:text="@string/vehicle_plate_label"/>
+        <EditText android:id="@+id/textVehiclePlate" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:inputType="numberDecimal" android:digits="0123456789.,"/>
+        <TextView android:id="@+id/labelVehcleType" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:text="@string/vehicle_type_label"/>
+        <EditText android:id="@+id/textVehicleType" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:inputType="numberDecimal" android:digits="0123456789.,"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/dialog_buttonbar_bg"
+        android:padding="5dip"
+android:id="@+id/yomellamoralph">
+
+<Button
+android:id="@+id/buttonOK"
+android:layout_width="120dp"
+android:layout_height="wrap_content"
+android:text="@string/ok_label"
+/>
+
+<Button
+android:id="@+id/buttonCancel"
+android:layout_width="120dp"
+android:layout_height="wrap_content"
+android:text="@string/cancel_label"
+/>
+
+</LinearLayout>
 
 </LinearLayout>
